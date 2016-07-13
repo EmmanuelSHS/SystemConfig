@@ -1,0 +1,3 @@
+# check ip hourly
+0 */1 * * * /usr/bin/python /root/rootcrons/reportip.py
+*/5 * * * * /usr/bin/sh /root/rootcrons/autoDeny.sh
