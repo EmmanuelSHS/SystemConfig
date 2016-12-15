@@ -1,2 +1,2 @@
 # codebase
-practices, non-product level, short code fragment
+learning, practices, non-product level, short code fragment
