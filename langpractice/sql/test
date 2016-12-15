@@ -1,0 +1,4 @@
+SELECT s.ID, s.name, s.dept_name, s.tot_cred, t.course_id, t.sec_id, t.semester, t.year, t.grade
+FROM student s, takes t
+WHERE s.ID = t.ID;
+

@@ -1,2 +1,2 @@
-# SystemConfig
-Customized Config and Scripts for Linux
+# codebase
+practices, non-product level, short code fragment

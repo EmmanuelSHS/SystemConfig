@@ -1,0 +1,3 @@
+SELECT *
+FROM student
+NATURAL LEFT OUTER JOIN takes;
