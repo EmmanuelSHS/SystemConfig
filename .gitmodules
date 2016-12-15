@@ -1,0 +1,9 @@
+[submodule "JavaLearning"]
+	path = JavaLearning
+	url = ./langpractice/JavaLearning/
+[submodule "cpp_learning"]
+	path = cpp_learning
+	url = ./langpractice/cpp_learning/
+[submodule "src"]
+	path = src
+	url = ./langpractice/JavaLearning/src/
