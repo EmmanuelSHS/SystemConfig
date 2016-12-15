@@ -1,0 +1,45 @@
+CREATE TABLE IF NOT EXISTS normal (
+    month int,
+    target int,
+    id_regional int,
+    qt_mou_exced real,
+    fl_chip_4g real,
+    fl_aparelho_4g real,
+    age int,
+    fl_ibge_cobert_4g real,
+    ll_mou_tot real,
+    ll_mou_out real,
+    ll_mou_in real,
+    ll_completed_in real,
+    ll_completed_out real,
+    ll_completed_tot real,
+    ll_interrupted_in real,
+    ll_interrupted_out real,
+    ll_interrupted_tot real,
+    ll_incompleted_in real,
+    ll_incompleted_out real,
+    ll_incompleted_tot real,
+    ll_10315_out real,
+    ll_10315_completed_out real,
+    ll_10315_interrupted_out real,
+    ll_10315_incompleted_out real,
+    ll_mou_10315_out real,
+    ll_8486_1058_out real,
+    ll_8486_1058_completed_out real,
+    ll_8486_1058_interrumpted_out real,
+    ll_8486_1058_not_completed_out real,
+    ll_mou_8486_1058_out real,
+    mb_mbou_uplink real,
+    mb_mbou_downlink real,
+    mb_mbou_tot real,
+    ds_regional int,
+    nr_cep text,
+    ds_cdde text,
+    nm_brro text,
+    id_short text
+);
+
+.header on
+.separator ','
+.import merged.csv normal
+DELETE FROM TABLE normal WHERE month='month';
